@@ -34,8 +34,8 @@ PASSWD_B64=$(echo -n "password" | base64)
 cat <<EOF > servicemonitor-auth-secret.yml
   apiVersion: v1
   data:
-    password: $USER_B64
-    username: $PASSWD_B64
+    username: $USER_B64
+    password: $PASSWD_B64
   kind: Secret
   metadata:
     name: servicemonitor-auth
