@@ -1,6 +1,6 @@
 
 
-# CREATE HAPROXY DASHBOARD ON OPENSHIFT-MONITORING
+# Create HAProxy dashboard on openshift-monitoring (Prometheus Operator)
 
 ## Enable router metrics endpoint
 
